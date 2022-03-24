@@ -1,0 +1,25 @@
+﻿<addon id="plugin.video.hustetv" name="Huste.tv" provider-name="waladir" version="1.0.0">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.22.0" />
+    <import addon="script.module.beautifulsoup4" version="4.6.0" />    
+  </requires>
+  <extension library="main.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="cs_CZ">Huste.tv</summary>
+    <description lang="cs_CZ">
+Slovenské sportovní přenosy včetně archivu
+    </description>    
+    <platform>all</platform>
+    <source>https://github.com/waladir/plugin.video.hustetv</source>
+    <news>
+v1.0.0 (24.3.2022)
+- první verze
+    </news>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
