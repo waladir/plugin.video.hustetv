@@ -1,2 +1,6 @@
-v1.0.0 (27.3.2022)
+v1.0.1 (28.3.2022)
+- přidání živých/budoucích přenosů
+- přidaná možnost automaticky spoustit přenos (je nutné zapnout v nastavení + restartovat Kodi a kontextovém menu u přenosu nastavit naplánovat spuštení)
+
+v1.0.0 (24.3.2022)
 - první verze

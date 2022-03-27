@@ -1,9 +1,11 @@
-﻿<addon id="plugin.video.hustetv" name="Huste.tv" provider-name="waladir" version="1.0.0">
+﻿<addon id="plugin.video.hustetv" name="Huste.tv" provider-name="waladir" version="1.0.1">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.22.0" />
+    <import addon="inputstream.adaptive" version="19.0.0"/>
     <import addon="script.module.beautifulsoup4" version="4.6.0" />    
   </requires>
+  <extension library="scheduler.py" point="xbmc.service"/>
   <extension library="main.py" point="xbmc.python.pluginsource">
     <provides>video</provides>
   </extension>
@@ -15,6 +17,10 @@ Slovenské sportovní přenosy včetně archivu
     <platform>all</platform>
     <source>https://github.com/waladir/plugin.video.hustetv</source>
     <news>
+v1.0.1 (28.3.2022)
+- přidání živých/budoucích přenosů
+- přidaná možnost automaticky spoustit přenos (je nutné zapnout v nastavení + restartovat Kodi a kontextovém menu u přenosu nastavit naplánovat spuštení)
+
 v1.0.0 (24.3.2022)
 - první verze
     </news>
