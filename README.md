@@ -3,6 +3,10 @@
 Slovenské sportovní přenosy včetně archivu
 <p>
 <a href="https://www.xbmc-kodi.cz/prispevek-huste-tv">Vlákno na fóru XBMC-Kodi.cz</a><br><br>
+
+v1.0.3 (28.3.2022)<br>
+- oprava deploye<br><br>
+
 v1.0.2 (28.3.2022)<br>
 - úprava addon.xml<br><br>
 
